@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #0b0820; color: #fff; font-family: Poppins, system-ui, sans-serif; overflow-x: hidden; }
+.glow-text { text-shadow: 0 0 18px rgba(255,158,203,.7), 0 0 44px rgba(167,139,250,.55); }
+.glass { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.16); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+@media (prefers-reduced-motion: reduce) { * { animation-duration: .01ms !important; scroll-behavior: auto !important; } }
