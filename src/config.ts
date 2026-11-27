@@ -3,7 +3,7 @@ export const NAME = "Minha";
 export const DATE_LABEL = "November 27";
 
 // 🎵 Put your MP3 at public/music/birthday.mp3 (or change this path)
-export const MUSIC_SRC = "/music/birthday.mp3";
+export const MUSIC_SRC = "/birthday-/music/birthday.mp3";
 export const MUSIC_TITLE = "Our Birthday Song";
 
 export const HERO_MESSAGE =
@@ -13,12 +13,12 @@ export const HERO_MESSAGE =
 // e.g. src: "/photos/1.jpg". Leave src empty to show a pretty placeholder.
 export interface Photo { src: string; caption: string; rotate: number }
 export const PHOTOS: Photo[] = [
-  { src: "/photos/2.png", caption: "That one crazy day 😂", rotate: -6 },
-  { src: "/photos/6.png", caption: "Us, being us 💕", rotate: 4 },
-  { src: "/photos/1.png", caption: "Best memories ✨", rotate: -3 },
-  { src: "/photos/5.png", caption: "Smiles for miles 🌸", rotate: 7 },
-  { src: "/photos/4.png", caption: "Never forget this one 🎀", rotate: -5 },
-  { src: "/photos/3.png", caption: "My favorite human 💖", rotate: 3 },
+  { src: "/birthday-/photos/2.png", caption: "That one crazy day 😂", rotate: -6 },
+  { src: "/birthday-/photos/6.png", caption: "Us, being us 💕", rotate: 4 },
+  { src: "/birthday-/photos/1.png", caption: "Best memories ✨", rotate: -3 },
+  { src: "/birthday-/photos/5.png", caption: "Smiles for miles 🌸", rotate: 7 },
+  { src: "/birthday-/photos/4.png", caption: "Never forget this one 🎀", rotate: -5 },
+  { src: "/birthday-/photos/3.png", caption: "My favorite human 💖", rotate: 3 },
 ];
 
 export const LETTER = [
